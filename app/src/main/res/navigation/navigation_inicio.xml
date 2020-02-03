@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_inicio"
+    app:startDestination="@id/logo">
+
+    <fragment
+        android:id="@+id/logo"
+        android:name="com.example.weedgrams.ui.logo.logo"
+        android:label="logo" >
+        <action
+            android:id="@+id/action_logo_to_logearse"
+            app:destination="@id/logearse" />
+    </fragment>
+    <fragment
+        android:id="@+id/logearse"
+        android:name="com.example.weedgrams.ui.logeo.Logearse"
+        android:label="logearse">
+        <action
+            android:id="@+id/action_logearse_to_fragment_registrarse"
+            app:destination="@id/registrarse" />
+    </fragment>
+    <fragment
+        android:id="@+id/registrarse"
+        android:name="com.example.weedgrams.ui.registarse.fragment_registrarse"
+        android:label="registrarse" />
+</navigation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_guias"
+        android:icon="@drawable/marijuana"
+        android:textColor="#C44CAF50"
+        android:title="Guias" />
+
+    <item
+        android:id="@+id/navigation_principal"
+        android:icon="@drawable/carrera"
+        android:textColor="#C44CAF50"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_tiempo"
+        android:icon="@drawable/nubes"
+        android:textColor="#C44CAF50"
+        android:title="Tiempo" />
+
+</menu>
